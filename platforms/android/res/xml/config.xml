@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.woofbot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.herokuapp.woofbot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <allow-intent href="market:*" />
-    <access hap-rule="yes" origin="http://woofbot.com/*" />
-    <allow-navigation hap-rule="yes" href="http://woofbot.com/*" />
-    <name>WoofBot</name>
+    <access hap-rule="yes" origin="http://woofbot.herokuapp.com/*" />
+    <allow-navigation hap-rule="yes" href="http://woofbot.herokuapp.com/*" />
+    <name>woofbot</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="http://woofbot.com/app" />
+    <content src="http://woofbot.herokuapp.com/app" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />

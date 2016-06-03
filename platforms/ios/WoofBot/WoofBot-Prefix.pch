@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'WoofBot' target in the 'WoofBot' project
+// Prefix header for all source files of the 'woofbot' target in the 'woofbot' project
 //
 
 #ifdef __OBJC__

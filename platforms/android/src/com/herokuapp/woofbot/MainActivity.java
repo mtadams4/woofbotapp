@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.woofbot;
+package com.herokuapp.woofbot;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

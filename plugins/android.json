@@ -43,15 +43,15 @@
     },
     "installed_plugins": {
         "cordova-plugin-hostedwebapp": {
-            "PACKAGE_NAME": "com.woofbot"
+            "PACKAGE_NAME": "com.herokuapp.woofbot"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.woofbot"
+            "PACKAGE_NAME": "com.herokuapp.woofbot"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.woofbot"
+            "PACKAGE_NAME": "com.herokuapp.woofbot"
         }
     }
 }

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-    <Identity Name="com.woofbot" Publisher="CN=$username$" Version="0.0.1.0" />
-    <mp:PhoneIdentity PhoneProductId="9d7d42f0-29aa-11e6-bb8a-4973aca94c2e" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
+    <Identity Name="com.herokuapp.woofbot" Publisher="CN=$username$" Version="0.0.1.0" />
+    <mp:PhoneIdentity PhoneProductId="4e1a2050-29c5-11e6-9414-f5afebb02d8f" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
     <Properties>
-        <DisplayName>WoofBot</DisplayName>
+        <DisplayName>woofbot</DisplayName>
         <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
     </Properties>
@@ -15,8 +15,8 @@
         <Resource Language="x-generate" />
     </Resources>
     <Applications>
-        <Application Id="com.woofbot" StartPage="www/wrapper.html">
-            <m3:VisualElements BackgroundColor="transparent" Description="CordovaApp" DisplayName="WoofBot" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <Application Id="com.herokuapp.woofbot" StartPage="www/wrapper.html">
+            <m3:VisualElements BackgroundColor="transparent" Description="CordovaApp" DisplayName="woofbot" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <m3:DefaultTile Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
                     <m3:ShowNameOnTiles>
                         <m3:ShowOn Tile="square150x150Logo" />

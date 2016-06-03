@@ -39,11 +39,11 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		B016E46B901B411B98D87662 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C21BB360B393447987CFCBA2 /* CDVConnection.m */; };
-		237D9E87E9914C4586ED447C /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 208A46C1280F48F3B18FE715 /* CDVReachability.m */; };
-		0CA5B7CDA2BD47C490D3BDC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91732C3BDB0449B68012117B /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		00000CFA3D1640DC8777C76A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD7A4A6A7EF45CB81140D23 /* CoreTelephony.framework */; };
-		CB1FC91DD60541759A462E43 /* CDVHostedWebApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE2E9CEE924ECCA20F714B /* CDVHostedWebApp.m */; };
+		07C978F0145C4E3981B009F1 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B44C0786704A5186707E4C /* CDVConnection.m */; };
+		4208FD9A5AF44971AB0F3C0A /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD202D3732E4A3F8A85ED54 /* CDVReachability.m */; };
+		EC50FAFFC30948BF944420DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FABB492B148C6BB25C953 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D176B8318FC3457FBC52C63A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96776E4BB1F44C5A36AF63B /* CoreTelephony.framework */; };
+		DAABBF7753DD4B30A3232891 /* CDVHostedWebApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148BB72285648B883E8646A /* CDVHostedWebApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* WoofBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoofBot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* woofbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "woofbot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,7 +91,7 @@
 		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
 		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* WoofBot-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WoofBot-Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* woofbot-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "woofbot-Prefix.pch"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
@@ -103,20 +103,20 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* WoofBot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "WoofBot-Info.plist"; path = "../WoofBot-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* woofbot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "woofbot-Info.plist"; path = "../woofbot-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "WoofBot/config.xml"; sourceTree = "<group>"; };
-		C21BB360B393447987CFCBA2 /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		208A46C1280F48F3B18FE715 /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		A94DBF00D890480395D185BB /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		38CD5E56A72746538B37C024 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		91732C3BDB0449B68012117B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		ECD7A4A6A7EF45CB81140D23 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		4BBE2E9CEE924ECCA20F714B /* CDVHostedWebApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVHostedWebApp.m"; path = "cordova-plugin-hostedwebapp/CDVHostedWebApp.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		8D346FCD1D394B069B421827 /* CDVHostedWebApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVHostedWebApp.h"; path = "cordova-plugin-hostedwebapp/CDVHostedWebApp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "woofbot/config.xml"; sourceTree = "<group>"; };
+		C5B44C0786704A5186707E4C /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4AD202D3732E4A3F8A85ED54 /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8572D4BB898B420C9084F73E /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9EE0EBBD98374F2F87100311 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B70FABB492B148C6BB25C953 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		A96776E4BB1F44C5A36AF63B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		4148BB72285648B883E8646A /* CDVHostedWebApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVHostedWebApp.m"; path = "cordova-plugin-hostedwebapp/CDVHostedWebApp.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B9016B2DB29D4F6D82C8B5DE /* CDVHostedWebApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVHostedWebApp.h"; path = "cordova-plugin-hostedwebapp/CDVHostedWebApp.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				0CA5B7CDA2BD47C490D3BDC4 /* SystemConfiguration.framework in Frameworks */,
-				00000CFA3D1640DC8777C76A /* CoreTelephony.framework in Frameworks */,
+				EC50FAFFC30948BF944420DC /* SystemConfiguration.framework in Frameworks */,
+				D176B8318FC3457FBC52C63A /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,13 +146,13 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "WoofBot/Classes";
+			path = "woofbot/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* WoofBot.app */,
+				1D6058910D05DD3D006BFB54 /* woofbot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,11 +178,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* WoofBot-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* woofbot-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "WoofBot";
+			path = "woofbot";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -190,10 +190,10 @@
 			children = (
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
-				8D1107310486CEB800E47090 /* WoofBot-Info.plist */,
+				8D1107310486CEB800E47090 /* woofbot-Info.plist */,
 			);
 			name = Resources;
-			path = "WoofBot/Resources";
+			path = "woofbot/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -202,8 +202,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				91732C3BDB0449B68012117B /* SystemConfiguration.framework */,
-				ECD7A4A6A7EF45CB81140D23 /* CoreTelephony.framework */,
+				B70FABB492B148C6BB25C953 /* SystemConfiguration.framework */,
+				A96776E4BB1F44C5A36AF63B /* CoreTelephony.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,15 +219,15 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				C21BB360B393447987CFCBA2 /* CDVConnection.m */,
-				208A46C1280F48F3B18FE715 /* CDVReachability.m */,
-				A94DBF00D890480395D185BB /* CDVConnection.h */,
-				38CD5E56A72746538B37C024 /* CDVReachability.h */,
-				4BBE2E9CEE924ECCA20F714B /* CDVHostedWebApp.m */,
-				8D346FCD1D394B069B421827 /* CDVHostedWebApp.h */,
+				C5B44C0786704A5186707E4C /* CDVConnection.m */,
+				4AD202D3732E4A3F8A85ED54 /* CDVReachability.m */,
+				8572D4BB898B420C9084F73E /* CDVConnection.h */,
+				9EE0EBBD98374F2F87100311 /* CDVReachability.h */,
+				4148BB72285648B883E8646A /* CDVHostedWebApp.m */,
+				B9016B2DB29D4F6D82C8B5DE /* CDVHostedWebApp.h */,
 			);
 			name = Plugins;
-			path = "WoofBot/Plugins";
+			path = "woofbot/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -281,9 +281,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* WoofBot */ = {
+		1D6058900D05DD3D006BFB54 /* woofbot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WoofBot" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "woofbot" */;
 			buildPhases = (
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -295,9 +295,9 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "WoofBot";
-			productName = "WoofBot";
-			productReference = 1D6058910D05DD3D006BFB54 /* WoofBot.app */;
+			name = "woofbot";
+			productName = "woofbot";
+			productReference = 1D6058910D05DD3D006BFB54 /* woofbot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -332,7 +332,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* WoofBot */,
+				1D6058900D05DD3D006BFB54 /* woofbot */,
 			);
 		};
 /* End PBXProject section */
@@ -409,9 +409,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				B016E46B901B411B98D87662 /* CDVConnection.m in Sources */,
-				237D9E87E9914C4586ED447C /* CDVReachability.m in Sources */,
-				CB1FC91DD60541759A462E43 /* CDVHostedWebApp.m in Sources */,
+				07C978F0145C4E3981B009F1 /* CDVConnection.m in Sources */,
+				4208FD9A5AF44971AB0F3C0A /* CDVReachability.m in Sources */,
+				DAABBF7753DD4B30A3232891 /* CDVHostedWebApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +435,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WoofBot/WoofBot-Prefix.pch";
+				GCC_PREFIX_HEADER = "woofbot/woofbot-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "WoofBot/WoofBot-Info.plist";
+				INFOPLIST_FILE = "woofbot/woofbot-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -452,7 +452,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "WoofBot";
+				PRODUCT_NAME = "woofbot";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,10 +464,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WoofBot/WoofBot-Prefix.pch";
+				GCC_PREFIX_HEADER = "woofbot/woofbot-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "WoofBot/WoofBot-Info.plist";
+				INFOPLIST_FILE = "woofbot/woofbot-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -481,7 +481,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "WoofBot";
+				PRODUCT_NAME = "woofbot";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -576,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WoofBot" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "woofbot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
