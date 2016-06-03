@@ -1,0 +1,57 @@
+{
+    "start_url": "http://woofbot.com/app",
+    "short_name": "WoofBot",
+    "icons": [
+        {
+            "src": "/woofbotapp/0036.png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "/woofbotapp/0048.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/woofbotapp/0072.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/woofbotapp/0076.png",
+            "sizes": "76x76"
+        },
+        {
+            "src": "/woofbotapp/0096.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/woofbotapp/0120.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/woofbotapp/0144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/woofbotapp/0152.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/woofbotapp/0180.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/woofbotapp/0192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/woofbotapp/0512.png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/woofbotapp/1024.png",
+            "sizes": "1024x1024"
+        }
+    ],
+    "display": "fullscreen",
+    "orientation": "any",
+    "name": "WoofBot"
+}
